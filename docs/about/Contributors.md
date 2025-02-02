@@ -18,4 +18,4 @@ Creating this was fun, and I would like to appreciate my PhD supervisor [Pedro B
 
 I would like to thank the creator of [NMRglue](https://github.com/jjhelmus/nmrglue) for making it possible to work directly with [Bruker's](https://www.bruker.com) folder. Also, a special thanks to the creator(s) of [mrsimulator](https://mrsimulator.readthedocs.io/en/stable/).
 
-A shoutout to my colleagues who allowed me to test this package with their data: [Pranav Karanth](https://scholar.google.com/citations?user=r-XyXnwAAAAJ&hl=en) and [Tian Gui](https://www.researchgate.net/profile/Tian-Gu-11?ev=hdr_xpr).
+A shoutout to my colleagues who allowed me to test this package with their data: [Pranav Karanth](https://scholar.google.com/citations?user=r-XyXnwAAAAJ&hl=en) and [Tian Gu](https://www.researchgate.net/profile/Tian-Gu-11?ev=hdr_xpr).
