@@ -14,6 +14,7 @@ To verify that the package has been installed, run the command below in a Python
 
 
 ```bash
+
 import relaxnmr
 
 ```

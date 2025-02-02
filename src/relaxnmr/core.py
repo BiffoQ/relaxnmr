@@ -35,7 +35,7 @@ class T1Functions:
         interpreting the acquisition parameters, and converting
         the data into formats suitable for further analysis. 
         It automatically detects and loads the
-        variable delay list (vdlist, vplist, or vclist) used in the T1 experiment.
+        variable delay list (vdlist, vplist, or vclist) used in the experiment.
         
         Args:
             save_nmrpipe (bool): Whether to save the converted NMRPipe data to disk. 
