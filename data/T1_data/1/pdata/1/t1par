@@ -1,0 +1,46 @@
+##TITLE= Parameter file, TopSpin 4.0.6
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 30	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2024-08-30 12:22:54.327 +0200  nmr@CZC72773GJ
+$$ C:/Data/Biffo/240830_Chewbacca_17O_LAMOX_base/1/pdata/1/t1par
+$$ process C:\Bruker\TopSpin4.0.6\prog\mod\dataserver.exe
+##$BIGDEL= 100
+##$CALCDN= yes
+##$COMPNO= 1
+##$CONV= 1e-05
+##$CURSOR= 1
+##$DRIFT= 5
+##$EDGUESS= 0
+##$EDPARM= 0
+##$FCTTYPE= 2
+##$FIDNUMB= 15
+##$FITT1T2= 0
+##$FITTYPE= 0
+##$GAMM= 10000
+##$GRADIEN= 1
+##$GUESSES= (0..23)
+1 1 1 1 1 1 1 1 1 1 1 1 0.1 0.1 1 1 1 1 1 1 1 1 1 1
+##$INC= 1
+##$INTRNG= 1
+##$LISTINC= 0.001
+##$LISTTYP= <vdlist>
+##$LITDEL= 10
+##$MAXPNTS= 15
+##$NUMPNTS= 15
+##$NUMTERM= 2
+##$PARM= (0..11)
+0.961789305463608 0.00265804891051381 0 0 0 0 0 0 0 0 0 0
+##$PDTYP= <pd>
+##$REGIONS= 1
+##$SHOWINT= yes
+##$SHOWPP= yes
+##$SHOWTXT= 1
+##$START= 1
+##$X_END= 0.3
+##$X_START= 5e-06
+##$Y_END= 4.899194e+08
+##$Y_START= 0
+##END=

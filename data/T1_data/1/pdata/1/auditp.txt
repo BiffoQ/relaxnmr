@@ -1,0 +1,78 @@
+##TITLE= Audit trail, TopSpin 4.0.6
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ C:\Data\Biffo/240830_Chewbacca_17O_LAMOX_base/1/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2024-08-30 09:57:39.446 +0000>,<root>,<BladeEpu>,<go4>,<TopSpin 4.0.6>,
+      <created by zg on 'CAB AV4 500MHZ EXT' (CZC72773GJ) by user 'CZC72773GJ\nmr'
+       started at 2024-08-30 09:14:34.654 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2024-08-30 09:57:39.445 +0000
+       configuration hash MD5:
+       C1 9E 85 30 C8 C9 AB 67 78 EE FF AA AC 5B 20 21
+       double data hash MD5: 10000 * 15
+       F4 AB 9C 0E 3A 48 78 BC 01 FC A2 38 FF 12 F5 65>)
+$$ C:\Data\Biffo/240830_Chewbacca_17O_LAMOX_base/1/audita.txt
+(   2,<2024-08-30 11:57:39.689 +0200>,<nmr>,<CZC72773GJ>,<sertoint>,<TopSpin 4.0.6>,
+      <sertoint
+       data hash MD5: 10000 * 15
+       3E 73 24 7F A7 25 E6 72 F7 7F 2E 91 28 87 3C 40>)
+(   3,<2024-08-30 11:59:02.371 +0200>,<nmr>,<CZC72773GJ>,<proc2d>,<TopSpin 4.0.6>,
+      <Start of raw data processing
+       xf2 F2: SI = 16K WDW = 1 LB = 500 FT_mod = 6 PKNL = 1 PHC0 = 285.3411 PHC1 = 7067.669 F1: SI = 32
+       data hash MD5: 16K * 32
+       A7 21 DF 73 3B E8 FF 03 48 26 01 8F CE 81 2E C3>)
+$$ C:\Data\Biffo/240830_Chewbacca_17O_LAMOX_base/1/pdata/1/auditp.txt
+(   4,<2024-08-30 12:03:19.941 +0200>,<nmr>,<CZC72773GJ>,<audit>,<TopSpin 4.0.6>,
+      <user comment:
+       TITLE=20240830
+       satrec  T1
+       optimized echo
+       calibraitng pulse length - 20220406
+       17O 1174 Hz (spinning frequency)
+       rotor LAMOX 17O with a little bit KBr and BN, 1 mm sample layer, plus BN packed layer by layer up to the brim of the can
+       p1=5 us at 500 W (from d1=60s popt 998 expno 14)
+       
+       Laser Current : 25 A
+       cnst31=20kHz
+       de=45us
+       
+       PLW1 500W
+       
+       Amplifier control still unbalanced at 300W. And peak power of the probe is around 650W. So I will revert to 500W as the probe cant be damaged at this PLW1. However, the question remains if peak power of a probe
+       changes with usage.
+       
+       ns =
+       
+       d1=0.2 s
+       
+       shortening the vdlist and trying way less time
+       
+       VD_LIST:
+       
+       0.000005
+       0.00001
+       0.00003
+       0.00005
+       0.0001
+       0.0003
+       0.0005
+       0.001
+       0.003
+       0.005
+       0.01
+       0.03
+       0.05
+       0.1
+       0.3TITLE_END
+       data hash MD5: 16K * 32
+       A7 21 DF 73 3B E8 FF 03 48 26 01 8F CE 81 2E C3>)
+$$ C:/Users/babdulkadirola/OneDrive - Delft University of Technology/Desktop/Inside Desktop/PhD_Project/LAMOX_Publication/NMR_Data/Base_LAMOX/satrec_T1_data/240830_Chewbacca_17O_LAMOX_base/1/pdata/1/auditp.txt
+(   5,<2024-12-26 18:25:20.295 +0100>,<DASTUD\babdulkadirola>,<TUD260879>,<proc2d>,<TopSpin 4.1.4>,
+      <pk2 fgphup F2: PHC0 = -27.4125 PHC1 = 36.45
+       data hash MD5: 16K * 32
+       CC 40 C8 8B 99 D5 7E C0 D2 E0 BA 86 54 FC 3E 2B>)
+##END=
+
+$$ hash MD5
+$$ 60 94 3E E5 E9 BF 2C 3D 32 7C 8F DF 85 DC 12 5D

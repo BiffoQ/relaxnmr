@@ -1,0 +1,18 @@
+##TITLE= Parameter file, TopSpin 4.1.4
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 2	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ 2024-12-26 21:53:03.389 +0100  DASTUD\babdulkadirola@TUD260879
+$$ C:/Users/babdulkadirola/OneDrive - Delft University of Technology/Desktop/Tian/240815_LNS0p45_JLP/79/acqu2
+$$ process C:\Bruker\TopSpin4.1.4\prog\mod\dataserver.exe
+##$BF1= 116.641914
+##$FnMODE= 1
+##$NUC1= <7Li>
+##$O1= -15.83
+##$SFO1= 116.64189817
+##$SW= 10.3210944348996
+##$SW_h= 1203.872
+##$TD= 26
+##END=

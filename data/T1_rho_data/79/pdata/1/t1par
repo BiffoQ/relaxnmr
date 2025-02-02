@@ -1,0 +1,46 @@
+##TITLE= Parameter file, TOPSPIN		Version 2.1
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 48	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ 2024-05-29 12:58:04.156 +0200  nmrsu@TUD11508
+$$ D:/Tian/data/Tian/nmr/240815_LNS0p45_JLP/79/pdata/1/t1par
+$$ process C:\Bruker\TOPSPIN21\prog\mod\dataserver.exe
+##$BIGDEL= 100
+##$CALCDN= yes
+##$COMPNO= 2
+##$CONV= 1e-005
+##$CURSOR= 1
+##$DRIFT= 5
+##$EDGUESS= 0
+##$EDPARM= 0
+##$FCTTYPE= 4
+##$FIDNUMB= 1
+##$FITT1T2= 0
+##$FITTYPE= 0
+##$GAMM= 10000
+##$GRADIEN= 1
+##$GUESSES= (0..23)
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+##$INC= 1
+##$INTRNG= 1
+##$LISTINC= 0.001
+##$LISTTYP= <vplist>
+##$LITDEL= 10
+##$MAXPNTS= 26
+##$NUMPNTS= 26
+##$NUMTERM= 2
+##$PARM= (0..11)
+0.387119716549079 10202.9193333491 0.386915518725936 16089.7827685622 0
+0 0 0 0 0 0 0
+##$PDTYP= <pd0>
+##$REGIONS= 1
+##$SHOWINT= yes
+##$SHOWPP= yes
+##$START= 1
+##$X_END= 400000
+##$X_START= 10
+##$Y_END= 4.828694e+008
+##$Y_START= 0
+##END=

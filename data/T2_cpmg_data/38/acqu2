@@ -1,0 +1,25 @@
+##TITLE= Parameter file, TopSpin 4.0.6
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2022-11-15 17:40:02.473 +0100  nmr@CZC72773GJ
+$$ C:\Data\Pranav/221031-3MpyRPILSEI/38/acqu2
+$$ process C:\Bruker\TopSpin4.0.6\prog\mod\edparproc.exe
+##$ACQT0= 0
+##$BF1= 194.381167
+##$FnILOOP= 0
+##$FnMODE= 1
+##$NUC1= <7Li>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 0
+##$O1= 0
+##$PULPROG= <zg30>
+##$ProjAngle= 0
+##$SFO1= 194.381167
+##$SW= 9.99675403892844
+##$SW_h= 5000
+##$TD= 9
+##END=

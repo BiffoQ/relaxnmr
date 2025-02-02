@@ -1,0 +1,40 @@
+20240830
+satrec  T1
+optimized echo
+calibraitng pulse length - 20220406
+17O 1174 Hz (spinning frequency)
+rotor LAMOX 17O with a little bit KBr and BN, 1 mm sample layer, plus BN packed layer by layer up to the brim of the can
+p1=5 us at 500 W (from d1=60s popt 998 expno 14)
+
+Laser Current : 25 A
+cnst31=20kHz
+de=45us
+
+PLW1 500W
+
+Amplifier control still unbalanced at 300W. And peak power of the probe is around 650W. So I will revert to 500W as the probe cant be damaged at this PLW1. However, the question remains if peak power of a probe
+changes with usage.
+
+ns =
+
+d1=0.2 s
+
+shortening the vdlist and trying way less time
+
+VD_LIST:
+
+0.000005
+0.00001
+0.00003
+0.00005
+0.0001
+0.0003
+0.0005
+0.001
+0.003
+0.005
+0.01
+0.03
+0.05
+0.1
+0.3

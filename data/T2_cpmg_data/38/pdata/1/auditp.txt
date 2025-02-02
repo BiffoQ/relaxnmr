@@ -1,0 +1,28 @@
+##TITLE= Audit trail, TopSpin 4.0.6
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ C:/Data/Pranav/221031-3MpyRPILSEI/38/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2022-11-15 21:10:23.678 +0000>,<root>,<BladeEpu>,<go4>,<TopSpin 4.0.6>,
+      <acquisition in progress>)
+(   2,<2022-11-16 06:32:14.398 +0100>,<nmr>,<CZC72773GJ>,<proc2d>,<TopSpin 4.0.6>,
+      <Start of raw data processing
+       xf2 F2: TDeff = 8K SI = 128K WDW = 1 LB = 150 FT_mod = 6 PKNL = 1 PHC0 = 144.0641 PHC1 = -254.4 F1: SI = 16
+       data hash MD5: 128K * 16
+       62 AC 93 3A 7D 3F 54 8C 38 0F AC 25 05 78 55 63>)
+$$ C:/Users/pranavkaranth/Documents/SOLiDIFY/NMRData/Pranav ILE/PyrFSI Based/221031-3M 1M PyRPILSEI and salt refs/38/pdata/1/auditp.txt
+(   3,<2024-12-26 21:07:08.983 +0100>,<DASTUD\pranavkaranth>,<TUD258163>,<proc2d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       xf2 F2: TDeff = 8K SI = 128K WDW = 1 LB = 150 FT_mod = 6 PKNL = 1 PHC0 = 225 PHC1 = -330 F1: SI = 16
+       data hash MD5: 128K * 16
+       DF D2 6B FB 89 1B 29 28 19 27 9C 36 D0 E5 59 49>)
+(   4,<2024-12-26 21:24:02.653 +0100>,<DASTUD\pranavkaranth>,<TUD258163>,<proc2d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       xf2 F2: TDeff = 8K SI = 128K WDW = 1 LB = 150 FT_mod = 6 PKNL = 1 PHC0 = 225 PHC1 = -330 F1: SI = 16
+       data hash MD5: 128K * 16
+       DF D2 6B FB 89 1B 29 28 19 27 9C 36 D0 E5 59 49>)
+##END=
+
+$$ hash MD5
+$$ 11 8B EF A6 87 7A C6 35 BD 60 54 42 28 5E 09 47

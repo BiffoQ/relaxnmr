@@ -1,0 +1,118 @@
+site_name: relaxnmr
+site_author: Biffo Abdulkadir Olatunbosun
+site_description: >-
+  relaxnmr an open-source Python package for solid-state NMR relaxation data analysis: T1, T1_rho and T2.
+
+nav:
+  - Home: index.md
+  - Installation:
+      - installation/install.md
+  - User Guide:
+      - user_guide/T1_analysis.ipynb
+      - user_guide/T1_rho_analysis.ipynb
+      - user_guide/T2_cpmg_analysis.ipynb
+  - Code Documentation: reference/
+  - About:
+      - about/Contributors.md
+      - about/License.md
+      - about/Changelog.md
+
+repo_url: https://github.com/BiffoQ/relaxnmr/
+edit_uri: blob/main/docs/
+
+theme:
+  features:
+    - content.action.edit
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - navigation.footer
+    - navigation.path
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.tabs        
+    - navigation.tabs.sticky 
+    - navigation.indexes    
+    - navigation.expand     
+    - search.highlight
+    - search.suggest
+    - search.share
+    - header.autohide
+    - toc.follow
+  name: material
+  palette:
+    primary: blue
+    scheme: dark
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format ""
+          name: mermaid
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - mknotebooks:
+      input_dir: notebooks
+      output_dir: docs/notebooks
+      exclude: ['.*_checkpoint.ipynb']
+  - autorefs
+  - social
+  - offline
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          paths: [src]
+          import:
+            - https://docs.python.org/3/objects.inv
+            - https://numpy.org/doc/stable/objects.inv
+          options:
+            docstring_style: numpy
+            docstring_section_style: list
+            separate_signature: true
+            merge_init_into_class: true
+            docstring_options:
+              ignore_init_summary: true
+            show_source: true  # Add this to show source code
+            show_root_heading: true  # Add this to show the main heading
+            show_if_no_docstring: true  # Add this to show items without docstrings
+  - gen-files:
+      scripts:
+        - docs/gen_ref_pages.py
+  - literate-nav:
+      nav_file: SUMMARY.md

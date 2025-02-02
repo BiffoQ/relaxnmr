@@ -1,0 +1,39 @@
+##TITLE= List of Points
+##JCAMPDX= 5.0
+##DATA TYPE= LINK
+##BLOCKS= 1	$$ is the number of fits or point lists
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2024-08-30 12:22:03.268 +0200  nmr@CZC72773GJ
+$$ C:\Data\Biffo/240830_Chewbacca_17O_LAMOX_base/1/pdata/1/t1t2.dx
+##XUNITS= sec
+##YUNITS= a.u.
+##MINX=   5.000000e-06
+##MAXX=   3.000000e-01
+##MINY=   0.000000e+00
+##MAXY=   1.000000e+00
+##TITLE= Peak No. 1 at 573.885 ppm, satrec, I[0] =  9.618e-01, T =    2.658m
+##JCAMP-DX= 5.0
+##DATA TYPE= Relaxation Data
+$$
+##$FITFKT= satrec(  9.617893e-01,   2.658049e-03)
+$$
+##NPOINTS= 15
+##XYPOINTS= (XY..XY)
+  5.000000e-06,  1.833946e-01
+  1.000000e-05,  1.884573e-01
+  3.000000e-05,  1.905023e-01
+  5.000000e-05,  1.741910e-01
+  1.000000e-04,  1.966958e-01
+  3.000000e-04,  2.404447e-01
+  5.000000e-04,  2.889141e-01
+  1.000000e-03,  3.601288e-01
+  3.000000e-03,  5.773300e-01
+  5.000000e-03,  7.062597e-01
+  1.000000e-02,  9.155004e-01
+  3.000000e-02,  1.000000e+00
+  5.000000e-02,  9.765604e-01
+  1.000000e-01,  9.896078e-01
+  3.000000e-01,  9.800877e-01
+##END= $$ End of List for Peak No. 1
+##END= $$ End of List of Points

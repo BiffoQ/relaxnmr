@@ -1,0 +1,23 @@
+##TITLE= Audit trail, TopSpin 4.0.6
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/240830_Chewbacca_17O_LAMOX_base/1/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2024-08-30 09:57:39.446 +0000>,<root>,<BladeEpu>,<go4>,<TopSpin 4.0.6>,
+      <created by zg on 'CAB AV4 500MHZ EXT' (CZC72773GJ) by user 'CZC72773GJ\nmr'
+       started at 2024-08-30 09:14:34.654 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2024-08-30 09:57:39.445 +0000
+       configuration hash MD5:
+       C1 9E 85 30 C8 C9 AB 67 78 EE FF AA AC 5B 20 21
+       double data hash MD5: 10000 * 15
+       F4 AB 9C 0E 3A 48 78 BC 01 FC A2 38 FF 12 F5 65>)
+$$ C:\Data\Biffo/240830_Chewbacca_17O_LAMOX_base/1/audita.txt
+(   2,<2024-08-30 11:57:39.689 +0200>,<nmr>,<CZC72773GJ>,<sertoint>,<TopSpin 4.0.6>,
+      <sertoint
+       data hash MD5: 10000 * 15
+       3E 73 24 7F A7 25 E6 72 F7 7F 2E 91 28 87 3C 40>)
+##END=
+
+$$ hash MD5
+$$ 82 ED 5A 40 44 E3 49 87 2C 77 25 3B 99 5C C1 6E

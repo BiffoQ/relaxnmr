@@ -1,0 +1,23 @@
+##TITLE= Audit trail, TopSpin 4.0.6
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/221031-3MpyRPILSEI/38/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2022-11-16 06:47:43.911 +0000>,<root>,<BladeEpu>,<go4>,<TopSpin 4.0.6>,
+      <created by zg on 'CAB AV4 500MHZ EXT' (CZC72773GJ) by user 'CZC72773GJ\nmr'
+       started at 2022-11-15 21:10:23.684 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2022-11-16 06:47:43.911 +0000
+       configuration hash MD5:
+       A5 61 9C 9F F6 F0 7A 95 AD 3B 56 17 C7 92 93 C9
+       double data hash MD5: 25000 * 9
+       56 49 E8 E3 EA F7 15 60 5F 47 F1 48 C0 0C 63 B7>)
+$$ C:/Data/Pranav/221031-3MpyRPILSEI/38/audita.txt
+(   2,<2022-11-16 07:47:40.327 +0100>,<nmr>,<CZC72773GJ>,<sertoint>,<TopSpin 4.0.6>,
+      <sertoint
+       data hash MD5: 25000 * 9
+       52 7D 32 1F 44 8D B6 63 33 63 02 F0 F0 67 C1 DC>)
+##END=
+
+$$ hash MD5
+$$ 5A FD 7C E4 EC 19 23 43 65 FF 60 66 90 FF 2E A8

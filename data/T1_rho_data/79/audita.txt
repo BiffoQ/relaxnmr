@@ -1,0 +1,18 @@
+##TITLE= Audit trail, TOPSPIN		Version 2.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:/Tian/data/Tian/nmr/240815_LNS0p45_JLP/79/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2024-05-29 12:56:47.656 +0200>,<nmrsu>,<TUD11508>,<go>,<TOPSPIN 2.1>,
+      <created by zg
+	started at 2024-05-29 12:54:51.062 +0200,
+	POWCHK disabled, PULCHK disabled,
+       configuration hash MD5:
+       7E 9D CD 98 72 C7 7C D2 68 3E 9C 54 C3 68 42 0B
+       data hash MD5: 9988 * 26
+       1C 85 E4 3C BB B4 24 FC 49 C7 08 71 6B 57 05 D2>)
+##END=
+
+$$ hash MD5
+$$ 02 E2 F4 BD AB 79 CB 45 64 EE C2 D8 DE A3 20 B6

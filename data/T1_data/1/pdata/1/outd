@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 4.0.6
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2024-08-30 11:10:46.456 +0200  nmr@CZC72773GJ
+$$ C:/Data/Biffo/240830_Chewbacca_17O_LAMOX_base/1/pdata/1/outd
+$$ process C:\Bruker\TopSpin4.0.6\prog\mod\dirdata.exe
+##$CURPLOT= <>
+##$CURPRIN= <$>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/layouts.npt/NPT_79Br_MAS_maxSpinRate.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

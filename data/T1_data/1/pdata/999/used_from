@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 4.1.4
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 18	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2024-12-26 19:45:51.093 +0100  DASTUD\babdulkadirola@TUD260879
+$$ C:/Users/babdulkadirola/OneDrive - Delft University of Technology/Desktop/Inside Desktop/PhD_Project/LAMOX_Publication/NMR_Data/Base_LAMOX/satrec_T1_data/240830_Chewbacca_17O_LAMOX_base/1/pdata/999/used_from
+$$ process C:\Bruker\TopSpin4.1.4\prog\mod\proc1d.exe
+##$CUREXP= <ser>
+##$DATPATH= <C:/Users/babdulkadirola/OneDrive - Delft University of Technology/Desktop/Inside Desktop/PhD_Project/LAMOX_Publication/NMR_Data/Base_LAMOX/satrec_T1_data>
+##$EXPNO= 1
+##$NAME= <240830_Chewbacca_17O_LAMOX_base>
+##$PROCNO= 1
+##$PROCNO2= 15
+##END=

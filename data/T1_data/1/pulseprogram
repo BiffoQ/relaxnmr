@@ -1,0 +1,79 @@
+# 1 "/root/.topspin-BladeEpu/local_acqu/ppDirs/satrect1nodec"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/root/.topspin-BladeEpu/local_acqu/ppDirs/satrect1nodec"
+;satrect1
+;
+;TS 3 / 08.09.2011
+;
+;saturation recovery T1 experiment
+;pulse program is for 2D acquisition
+;establish suitable vd list
+;uses mc syntax, so that it can be used in 1D mode for set-up of 
+;saturation pulse train
+;
+;
+;Avance III version
+;parameters:
+;pl1 : X power level
+;pl2 : =0W, not used
+;pl12 : power level for H 90 and standard proton decoupling 
+;pl13 : e.g. used in spinal64_13
+;p1 : X 90 degree pulse
+;pcpd2 : pulse length in decoupling sequence
+;d1 : recycle delay
+;d20 : delay in saturation pulse train
+;l20 : number of pulses in saturation pulse train, 0 if undesired
+;vdlist : list containing tau delays
+;FnMODE: QF
+;
+;
+;$CLASS=Solids
+;$DIM=pseudo 2D
+;$TYPE=direct excitation
+;$SUBTYPE=T1/T2
+;$COMMENT=saturation recovery T1 experiment
+
+prosol relations=<solids_default>
+
+# 36 "/root/.topspin-BladeEpu/local_acqu/ppDirs/satrect1nodec"
+"acqt0=-(1u*+p1/2)"
+
+# 1 "mc_line 38 file /root/.topspin-BladeEpu/local_acqu/ppDirs/satrect1nodec exp. def. part of mc cmd. before ze"
+; dimension 2D; AQ_mode  (F1) QF
+define delay MCWRK
+define delay MCREST
+"MCREST = 10m - 10m"
+"MCWRK = 0.500000*10m"
+# 38 "/root/.topspin-BladeEpu/local_acqu/ppDirs/satrect1nodec"
+1 ze
+# 1 "mc_line 38 file /root/.topspin-BladeEpu/local_acqu/ppDirs/satrect1nodec exp. def. of mc cmd. after ze"
+LBLAV, MCWRK
+# 39 "/root/.topspin-BladeEpu/local_acqu/ppDirs/satrect1nodec"
+# 1 "mc_line 39 file /root/.topspin-BladeEpu/local_acqu/ppDirs/satrect1nodec exp. start label for mc cmd."
+2 MCWRK 
+LBLF1, MCWRK
+  MCREST
+# 40 "/root/.topspin-BladeEpu/local_acqu/ppDirs/satrect1nodec"
+  d1
+3 d20
+  (p1 pl1 ph4):f1
+  lo to 3 times l20
+  vd			;recovery delay
+  (p1 pl1 ph1):f1
+  1u 
+  go=2 ph31
+# 1 "mc_line 48 file /root/.topspin-BladeEpu/local_acqu/ppDirs/satrect1nodec exp. mc cmd. in line"
+  MCWRK  wr #0 if #0 zd ivd 
+  lo to LBLF1 times td1
+  MCWRK rf #0
+  lo to LBLAV times tdav
+# 49 "/root/.topspin-BladeEpu/local_acqu/ppDirs/satrect1nodec"
+HaltAcqu, 1m
+exit
+
+ph1= 0 0 2 2 1 1 3 3
+ph4= 0
+ph31= 0 0 2 2 1 1 3 3
+# 58 "/root/.topspin-BladeEpu/local_acqu/ppDirs/satrect1nodec"
+;$Id: satrect1nodec,v 1.6 2017/02/22 16:58:55 ber Exp $
