@@ -44,8 +44,15 @@ theme:
     - toc.follow
   name: material
   palette:
-    primary: blue
+    primary: brown
     scheme: dark
+  font:
+    text: "Amiri"
+    code: "Roboto Mono"
+
+extra_css:
+  - https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap
+
 
 markdown_extensions:
   - abbr
@@ -116,3 +123,6 @@ plugins:
         - docs/gen_ref_pages.py
   - literate-nav:
       nav_file: SUMMARY.md
+extra:
+  css:
+    - css/extras.css

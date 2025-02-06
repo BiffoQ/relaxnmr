@@ -2,6 +2,8 @@
 dist/
 .pytest_cache/
 
+docs/css
+
 # Docs
 .cache/
 docs/reference/*
