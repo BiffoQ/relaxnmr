@@ -44,8 +44,8 @@ The following packages are required:
 nmrglue 
 numpy >= 1.26.0
 matplotlib >= 3.9.0
-mrsimulator = 0.7.0
-pydantic = 1.10.0
+mrsimulator = 0.7
+pydantic = 1.10
 
 ```
 
@@ -53,7 +53,7 @@ You can install these dependencies using pip:
 
 ```bash
 
-pip install nmrglue numpy>=1.26.0 scipy pydantic = 1.10.0 mrsimulator = 0.7.0
+pip install nmrglue numpy>=1.26.0 scipy pydantic = 1.10 mrsimulator = 0.7
 
 ```
 
