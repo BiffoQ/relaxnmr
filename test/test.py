@@ -7,7 +7,7 @@ import tempfile
 from mrsimulator import signal_processor as sp
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from src.relaxnmr.core import T1Functions
+from src.relaxometrynmr.core import T1Functions
 import matplotlib.pyplot as plt
 
 class TestT1Functions(unittest.TestCase):

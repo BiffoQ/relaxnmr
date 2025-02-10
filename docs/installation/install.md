@@ -1,10 +1,10 @@
 #Installation
 
-If you have Python and pip installed, you can install ``relaxnmr`` with the command below:
+If you have Python and pip installed, you can install ``relaxomterynmr`` with the command below:
 
 ```bash
 
-pip install relaxnmr
+pip install relaxometrynmr
 
 ```
 
@@ -15,6 +15,6 @@ To verify that the package has been installed, run the command below in a Python
 
 ```bash
 
-import relaxnmr
+import relaxometrynmr
 
 ```

@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "relaxnmr"
+name = "relaxometrynmr"
 version = "0.0.0"
 description = "solid-state NMR relaxation data analysis: T1, T1_rho and T2"
 readme = "README.md"
@@ -81,20 +81,20 @@ version = "0.0.0"
 envs = {dev = ["pytest", "black", "isort", "mypy"]}
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/relaxnmr"]
+packages = ["src/relaxometrynmr"]
 
 [tool.setuptools.package-data]
-relaxnmr = ["py.typed"]
+relaxometrynmr = ["py.typed"]
 
 [tool.pyright]
-include = ["relaxnmr"]     # Only check files in the relaxnmr directory
+include = ["relaxometrynmr"]     # Only check files in the relaxometrynmr directory
 exclude = ["**/__pycache__"] # Skip all __pycache__ directories
 
 [project.urls]
-Homepage = "https://github.com/BiffoQ/relaxnmr"
-Documentation = "https://biffoq.github.io/relaxnmr/"
-Repository = "https://github.com/BiffoQ/relaxnmr.git"
-changelog = "https://github.com/BiffoQ/relaxnmr/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/BiffoQ/relaxometrynmr"
+Documentation = "https://biffoq.github.io/relaxometrynmr/"
+Repository = "https://github.com/BiffoQ/relaxometrynmr.git"
+changelog = "https://github.com/BiffoQ/relaxometrynmr/blob/main/CHANGELOG.md"
 
 [tool.ruff]
 lint.select = [
@@ -140,7 +140,7 @@ lint.unfixable = [
 lint.flake8-unused-arguments.ignore-variadic-names = true
 lint.pydocstyle.convention = "numpy"
 lint.isort.required-imports = ["from __future__ import annotations"]
-lint.isort.known-first-party = ["relaxnmr"]
+lint.isort.known-first-party = ["relaxometrynmr"]
 src = ["src"]
 exclude = []
 extend-exclude = ["test"]

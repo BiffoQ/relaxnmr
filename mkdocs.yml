@@ -1,7 +1,7 @@
-site_name: relaxnmr
+site_name: relaxometrynmr
 site_author: Biffo Abdulkadir Olatunbosun
 site_description: >-
-  relaxnmr an open-source Python package for solid-state NMR relaxation data analysis: T1, T1_rho and T2.
+  relaxometrynmr an open-source Python package for solid-state NMR relaxation data analysis: T1, T1_rho and T2.
 
 nav:
   - Home: index.md
@@ -18,7 +18,7 @@ nav:
       - about/License.md
       - about/Changelog.md
 
-repo_url: https://github.com/BiffoQ/relaxnmr/
+repo_url: https://github.com/BiffoQ/relaxometrynmr/
 edit_uri: blob/main/docs/
 
 theme:

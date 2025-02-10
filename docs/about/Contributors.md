@@ -1,6 +1,6 @@
 # People
 
-relaxnmr is written by [Abdulkadir Olatunbosun Biffo](https://scholar.google.com/citations?user=TievH90AAAAJ&hl=en).
+relaxometrynmr is written by [Abdulkadir Olatunbosun Biffo](https://scholar.google.com/citations?user=TievH90AAAAJ&hl=en).
 
 # Active Maintainers
 
