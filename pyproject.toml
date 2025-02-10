@@ -34,7 +34,7 @@ dependencies = [
     "numpy >= 1.26.0",
     "matplotlib >= 3.9.0",
     "mrsimulator == 0.7",
-    "pydantic == 1.10"
+    "pydantic == 2.10.6"
 ]
 
 [project.optional-dependencies]
