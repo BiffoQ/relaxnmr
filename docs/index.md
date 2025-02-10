@@ -1,11 +1,10 @@
 # ``relaxnmr``: NMR relaxometry made easy !
-
-``relaxnmr`` an open-source Python package for solid-state NMR relaxation data analysis: T1, T1_rho and T2.
+``relaxnmr`` an open-source Python package for solid-state NMR relaxation data analysis: T1, T1<sub>ρ</sub> and T2.
 
 This package is only compatible with Bruker's NMR data (see User's guide).
 
 # Why ``relaxnmr``?
-This package is built for NMR relaxometry data analysis and offers a user-friendly data processing. It streamlines the analysis of relaxation time constant (T1, T1_rho or T2) and reduces analysis time by more than 50%. It comprises several built-in modeling functions such as mono-, di-, tri-, and stretch-exponential. These functions offer the flexibility to model a wide range of relaxation behaviors -- from simple to complex systems.
+This package is built for NMR relaxometry data analysis and offers a user-friendly data processing. It streamlines the analysis of relaxation time constant (T1, T1<sub>ρ</sub> or T2) and reduces analysis time by more than 50%. It comprises several built-in modeling functions such as mono-, di-, tri-, and stretch-exponential. These functions offer the flexibility to model a wide range of relaxation behaviors -- from simple to complex systems.
 
 
 

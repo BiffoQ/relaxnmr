@@ -291,21 +291,23 @@ class T1Functions:
             fig, ax = plt.subplots(1, 2, figsize=(9, 3.5), subplot_kw={"projection": "csdm"})
             
             ax[0].plot(exp_spectrum.real)
-            ax[0].set_title(f"Full Spectrum {i+1}")
+            ax[0].set_title(f"Full Spectrum {i}")
             ax[0].invert_xaxis()
             ax[1].plot(exp_spectrum.real, label="real")
             ax[1].fill_between(x_regions[i], y_regions[i], color='red', alpha=0.5)
-            ax[1].set_title(f"Zoomed Spectrum {i+1}")
+            ax[1].set_title(f"Zoomed Spectrum {i}")
             ax[1].invert_xaxis()
             ax[1].set_xlim(xlim1, xlim2) #make this modular by passing x_lim as a parameter
             
             intensity = np.abs(exp_spectrum.dependent_variables[0].components[0].max())
             intensities.append(intensity)
         
-        plt.tight_layout()
-        plt.legend()
-        plt.show()
-        plt.close()
+            plt.tight_layout()
+            plt.legend()
+            plt.show()
+            plt.clf()
+            plt.close()
+        
         
         return intensities
 
@@ -323,10 +325,10 @@ class T1Functions:
         
         Args:
             t (ndarray): Time points of the relaxation curve
-            M0 (float): Equilibrium magnetization, representing the fully relaxed signal
+            M0 (float): Equilibrium magnetization
             T1 (float): Spin-lattice relaxation time constant
-            A (float): Scaling factor to account for experimental conditions
-            B (float): Baseline offset to account for instrumental effects
+            A (float): Scaling factor for the overall amplitude
+            B (float): Baseline offset
             
         Returns:
             ndarray: Calculated magnetization values at each time point
