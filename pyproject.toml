@@ -33,7 +33,7 @@ dependencies = [
     "nmrglue",
     "numpy >= 1.26.0",
     "matplotlib >= 3.9.0",
-    "mrsimulator == 0.7",
+    "mrsimulator == 1.0.0",
     "pydantic == 1.10"
 ]
 
