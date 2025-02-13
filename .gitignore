@@ -4,6 +4,8 @@ dist/
 
 docs/css
 
+src\relaxometrynmr\packages.py
+
 # Docs
 .cache/
 docs/reference/*
